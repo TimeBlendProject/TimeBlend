@@ -97,6 +97,7 @@ blockquote footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
   padding: 1rem 2rem;
   background-color: #ffffff;
   position: sticky;
@@ -137,8 +138,9 @@ blockquote footer {
 
 .nav-toggle {
   display: none;
-  font-size: 1.5rem;
+  font-size: 2rem;
   cursor: pointer;
+  color: #7b61ff;
 }
 
 @media (max-width: 768px) {
