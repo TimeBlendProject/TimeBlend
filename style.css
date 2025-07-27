@@ -202,9 +202,9 @@ blockquote footer {
 /* Make it bigger on larger screens */
 @media screen and (min-width: 768px) {
   .logo {
-    max-width: 250px;
-    width: 40%;
-    padding-top: 20px;
+    max-width: 300px;
+    width: 70%;
+    padding-top: 40px;
   }
 }
 
