@@ -184,3 +184,23 @@ blockquote footer {
   }
 }
 
+.logo {
+  display: block;
+  margin: 0 auto; /* Center horizontally */
+  max-width: 200px;
+  width: 60%;
+  height: auto;
+  padding-top: 10px;
+  transition: all 0.3s ease;
+}
+
+/* Make it bigger on larger screens */
+@media screen and (min-width: 768px) {
+  .logo {
+    max-width: 250px;
+    width: 40%;
+    padding-top: 20px;
+  }
+}
+
+
